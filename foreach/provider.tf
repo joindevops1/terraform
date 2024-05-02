@@ -7,10 +7,10 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "rajesh76-remote-state"
+    bucket = "daws76v-state-dev"
     key    = "foreach"
     region = "us-east-1"
-    dynamodb_table = "rajesh76-locking"
+    dynamodb_table = "daws76v-locking-dev"
   }
 }
 
